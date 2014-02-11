@@ -5,7 +5,7 @@ Symbolic.js adds invisible text to certain symbols such as some ASCII characters
 
 No dependecies, configurable and very light weight. Even works on IE8.
 
-For example `1 + 1 = 2` is read as `1 1 2`
+For example `1 + 1 = 2` is read as `1 1 2`. By applying Symbolic it is read as `1 plus 1 equals 2`
 
 Symbolic.js has a very simple API
 ```javascript
