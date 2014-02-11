@@ -1,14 +1,11 @@
 symbolic.js
 ===========
 
-Symbolic.js adds invisible text to symbols currently not available to screen-readers.
+Symbolic.js adds invisible text to certain symbols such as some ASCII characters, some ISO-8859-1 and some HTML entity characters that are not read out by screen-readers.
 
 No dependecies, configurable and very light weight.
 Available as a JS include or CommonJS or AMD
 
-The symbols include are some ASCII characters, some ISO-8859-1 and some HTML entity characters that are not read out by screen-readers.
-
-This issue is not a bug in screen-reader software but rather a difficult area. See http://www.deque.com/dont-screen-readers-read-whats-screen-part-1-punctuation-typographic-symbols
 
 Symbolic.js has a very simple API
 ```javascript
