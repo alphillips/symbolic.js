@@ -170,7 +170,7 @@ to
   <span aria-hidden="true">=</span>
 2  
 ```
-And add this CSS to the page, so this symbol is visually hidden.
+And add this CSS to the page, so this text is visually hidden.
 ```css
 .symbolic-sr-only {
     border: 0 none;
