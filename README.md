@@ -3,7 +3,7 @@ symbolic.js
 
 Symbolic.js adds invisible text to certain symbols such as some ASCII characters, some ISO-8859-1 and some HTML entity characters that are not read out by screen-readers.
 
-No dependecies, configurable and very light weight.
+No dependecies, configurable and very light weight. Even works on IE8.
 Available as a JS include or CommonJS or AMD
 
 
