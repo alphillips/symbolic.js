@@ -12,7 +12,6 @@
   var symbols,
 
   /** static object mapping symbols to descriptive text */ 
-  // check http://www.freeformatter.com/html-entities.html#misc-html-entities
       defaultSymbols = {
         '~':'tilde',
         '`':'backtick',
