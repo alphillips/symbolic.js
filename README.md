@@ -10,12 +10,18 @@ The symbols include are some ASCII characters, some ISO-8859-1 and some HTML ent
 
 This issue is not a bug in screen-reader software but rather a difficult area. See http://www.deque.com/dont-screen-readers-read-whats-screen-part-1-punctuation-typographic-symbols
 
+Symbolic.js has a very simple API
+```javascript
+  symbolic(selector, config);
+``` 
+
+Where selector is one or more CSS selectors (same is input to querySelectorAll or JQuery) 
+
 ## Example usage
 
 ```javascript
-  symbolic(selector);
+  symbolic('.math');
 ```  
-  where selector is one or more CSS selectors (same is input to querySelectorAll or JQuery) 
 
   You can also add, remove any symbols by passing a config object to the second paramater.
 ```javascript  
@@ -31,6 +37,7 @@ This issue is not a bug in screen-reader software but rather a difficult area. S
 This example adds or overides # and ! and removes , and _ from being replaced.
 You can also completely replace the symbols to be used. 
 For example if you only wanted cards symbols you may override it like this:
+```javascript  
   symbolic('#deck',{
     symbols:{
       '♠':'spades',
@@ -39,6 +46,7 @@ For example if you only wanted cards symbols you may override it like this:
       '♦':'diamonds',
     }
   }); 
+```
 
 No other symbols except these four would be used.
 
