@@ -16,9 +16,9 @@ Symbolic.js has a very simple API
 ``` 
 
 Where selectors is one or more CSS selectors (same is input to querySelectorAll or JQuery). 
-Config is an object to provide for changing the symbols used.
+Config is an object that provides properties for adding, removing or completeing overriding symbols used.
 ```javascript
-{
+var config = {
   additions:{},
   removals:[],
   symbols:{}
@@ -34,10 +34,9 @@ Config is an object to provide for changing the symbols used.
 
   
 ```javascript  
-  // Add (or override) the '#' and '!', and remove ',' and '_'
+  // Add (or override the description) the '#' and '!' and remove ',' and '_'
   symbolic('.code',{
-    additions:{'#':'hash','!':'bang'
-    },
+    additions:{'#':'hash','!':'bang'},
     removals:[',','_']
   }); 
 ```  
