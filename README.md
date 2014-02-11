@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 or with AMD
 ```javascript
-requirejs(['symbolic'], function(symbolic) {
+require(['symbolic'], function(symbolic) {
     symbolic('.math');
 });  
 ```
