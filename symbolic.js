@@ -85,7 +85,6 @@
         '′':'prime',
         '″':'double prime',
         '∑':'sum'
-
   };
 
 
