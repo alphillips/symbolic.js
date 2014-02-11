@@ -1,5 +1,43 @@
 symbolic.js
 ===========
 
-Adds text for symbols that are avaiable to screen-readers but invisible to sighted users.
+Symbolic.js adds invisible text to symbols currently not available to screen-readers. 
 No dependecies, configurable and very light weight.
+Available as a JS include or CommonJS or AMD
+
+The symbols are some ASCII, some ISO-8859-1, some HTML entity characters that are not read out by screen-readers.
+This is not a bug in screen-reader software but rather a difficult area. See http://www.deque.com/dont-screen-readers-read-whats-screen-part-1-punctuation-typographic-symbols
+
+## Basic usage:
+  symbolic(selector);
+  where selector is one or more CSS selectors (same is input to querySelectorAll or JQuery) 
+
+  You can also add, remove any symbols by passing a config object to the second paramater.
+    symbolic('.code',{
+      additions:{
+        '#':'hash',
+        '!':'bang'
+      },
+    removals:[',','_']
+  }); 
+
+This example adds or overides # and ! and removes , and _ from being replaced.
+You can also completely replace the symbols to be used. 
+For example if you only wanted cards symbols you may override it like this:
+  symbolic('#deck',{
+    symbols:{
+      '♠':'spades',
+      '♣':'clubs',
+      '♥':'hearts',
+      '♦':'diamonds',
+    }
+  }); 
+
+No other symbols except these four would be used.
+
+## Install
+
+Basic install or common/require
+                 
+## Default symbols:
+list
