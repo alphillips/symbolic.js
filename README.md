@@ -185,4 +185,4 @@ And add this CSS to the page, so this symbol is visually hidden.
 ```
 
 ## Feedback
-Pull requests or feedback very welcome alphillips101@gmail.com or @alphillips101
+Pull requests or feedback welcome alphillips101@gmail.com or @alphillips101
