@@ -42,8 +42,8 @@ var config = {
 ```  
 
 ```javascript
-  // override all symbols with the symbols property. 
-  // No other symbols will be replaced except for these four
+  // override all symbols with the 'symbols' property. 
+  // No other symbols are used except for these four
   symbolic('#deck',{
     symbols:{
       '♠':'spades',
