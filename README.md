@@ -1,7 +1,8 @@
 symbolic.js
 ===========
 
-Symbolic.js adds invisible text to symbols currently not available to screen-readers. 
+Symbolic.js adds invisible text to symbols currently not available to screen-readers.
+
 No dependecies, configurable and very light weight.
 Available as a JS include or CommonJS or AMD
 
