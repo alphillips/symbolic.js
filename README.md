@@ -12,32 +12,39 @@ This issue is not a bug in screen-reader software but rather a difficult area. S
 
 Symbolic.js has a very simple API
 ```javascript
-  symbolic(selector, config);
+  symbolic(selectors, config);
 ``` 
 
-Where selector is one or more CSS selectors (same is input to querySelectorAll or JQuery) 
+Where selectors is one or more CSS selectors (same is input to querySelectorAll or JQuery). 
+Config is an object to provide for changing the symbols used.
+```javascript
+{
+  additions:{},
+  removals:[],
+  symbols:{}
+}
+```
 
 ## Example usage
 
 ```javascript
+  // add to any element with a class of 'math'
   symbolic('.math');
 ```  
 
-  You can also add, remove any symbols by passing a config object to the second paramater.
+  
 ```javascript  
-    symbolic('.code',{
-      additions:{
-        '#':'hash',
-        '!':'bang'
-      },
+  // Add (or override) the '#' and '!', and remove ',' and '_'
+  symbolic('.code',{
+    additions:{'#':'hash','!':'bang'
+    },
     removals:[',','_']
   }); 
 ```  
 
-This example adds or overides # and ! and removes , and _ from being replaced.
-You can also completely replace the symbols to be used. 
-For example if you only wanted cards symbols you may override it like this:
-```javascript  
+```javascript
+  // override all symbols with the symbols property. 
+  // No other symbols will be replaced except for these four
   symbolic('#deck',{
     symbols:{
       '♠':'spades',
@@ -48,7 +55,6 @@ For example if you only wanted cards symbols you may override it like this:
   }); 
 ```
 
-No other symbols except these four would be used.
 
 ## Install
 
