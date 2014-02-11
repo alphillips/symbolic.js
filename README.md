@@ -71,7 +71,7 @@ require(['symbolic'], function(symbolic) {
 });  
 ```
 
-or with Require
+or with Common
 ```javascript
 var symbolic = require('symbolic');
 symbolic('.math'); 
