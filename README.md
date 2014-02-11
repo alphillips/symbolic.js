@@ -64,14 +64,14 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 ```
 
-AMD
+or with AMD
 ```javascript
 requirejs(['symbolic'], function(symbolic) {
     symbolic('.math');
 });  
 ```
 
-Require
+or with Require
 ```javascript
 var symbolic = require('symbolic');
 symbolic('.math'); 
