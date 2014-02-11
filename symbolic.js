@@ -1,6 +1,5 @@
 /**
-* Symbolic.js: Adds text for symbols that are avaiable to screen-readers but invisible to sighted users.
-*              No dependecies, configurable and very light weight.  
+* Symbolic.js: Adds invisible text that can be read by screen-readers to symbols in HTML
 * MIT license http: //opensource.org/licenses/MIT
 * @author Al Phillips alphillips101@gmail.com
 */
