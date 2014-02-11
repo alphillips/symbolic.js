@@ -5,15 +5,15 @@ Symbolic.js adds invisible text to certain symbols such as some ASCII characters
 
 No dependecies, configurable and very light weight. Even works on IE8.
 
-For example `1 + 1 = 2' is read as '1 1 2'
+For example `1 + 1 = 2` is read as `1 1 2`
 
 Symbolic.js has a very simple API
 ```javascript
   symbolic(selectors, config);
 ``` 
 
-'Selectors' is one or more CSS selectors (same is input to querySelectorAll or JQuery) that will replace any symbols within the target elements.
-'Config' is an object that provides properties for adding, removing or completeing overriding symbols.
+`Selectors` is one or more CSS selectors (same is input to querySelectorAll or JQuery) that will replace any symbols within the target elements.
+`Config` is an object that provides properties for adding, removing or completeing overriding symbols.
 ```javascript
 var config = {
   additions:{},
