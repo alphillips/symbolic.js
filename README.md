@@ -162,8 +162,9 @@ Symbolic will change this
 ````
 to
 ```javascript
-1 <span class="symbolic-sr-only">plus</span><span aria-hidden="true">+</span>
-1 <span class="symbolic-sr-only">equals</span><span aria-hidden="true">=</span>
-2 
+1 <span class="symbolic-sr-only">plus</span>
+  <span aria-hidden="true">+</span>1
+  <span class="symbolic-sr-only">equals</span>
+  <span aria-hidden="true">=</span>2
 ```
 
