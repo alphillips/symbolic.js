@@ -162,7 +162,8 @@ Symbolic will change this
 ````
 to
 ```html
-1 <span class="symbolic-sr-only">plus</span>
+1 
+  <span class="symbolic-sr-only">plus</span>
   <span aria-hidden="true">+</span>
 1  
   <span class="symbolic-sr-only">equals</span>
@@ -183,3 +184,5 @@ And add this CSS to the page, so this symbol is visually hidden.
 }
 ```
 
+## Feedback
+Pull requests or feedback very welcome alphillips101@gmail.com or @alphillips101
