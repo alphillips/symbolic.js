@@ -161,10 +161,25 @@ Symbolic will change this
 1 + 1 = 2
 ````
 to
-```javascript
+```html
 1 <span class="symbolic-sr-only">plus</span>
-  <span aria-hidden="true">+</span>1
+  <span aria-hidden="true">+</span>
+1  
   <span class="symbolic-sr-only">equals</span>
-  <span aria-hidden="true">=</span>2
+  <span aria-hidden="true">=</span>
+2  
+```
+And add this CSS to the page, so this symbol is visually hidden.
+```css
+.symbolic-sr-only {
+    border: 0 none;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
 ```
 
