@@ -22,6 +22,8 @@ var config = {
 }
 ```
 
+Note to self: consider defaulting selector to [role="math"] if not selector is passed
+
 ## Example usage
 
 ```javascript
